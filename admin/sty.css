@@ -1,0 +1,31 @@
+ *{
+    background-image: linear-gradient(90deg, rgb(43, 77, 130),rgb(40, 144, 172));
+     color: black;
+ }
+ .menu
+ {
+    border: 1px solid wheat;
+ }
+ .menu li
+ {
+    list-style: none;
+    border: 1px solid wheat;
+    width: 150px;
+    height: 30px;
+    background: white;
+    cursor: pointer;
+ }
+ .menu li a 
+ {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+ .menu li :hover
+ {
+    background: lightblue;
+ }
+ .menu li :hover a 
+ {
+    color: aqua;
+ }
